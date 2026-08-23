@@ -39,7 +39,7 @@ when an individual is officially representing the project in public spaces.
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported to the maintainers at <conduct@paxlabs.io>. All complaints will
+reported to the maintainers at <conduct@sidiora.io>. All complaints will
 be reviewed and investigated promptly and fairly.
 
 ## Attribution

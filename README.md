@@ -11,7 +11,7 @@ Time series storage · real-time state · relational data · event sourcing unif
 
 <p align="center">
   <img src="https://img.shields.io/badge/Project-PerfDB-FFFFFF?style=for-the-badge&amp;labelColor=004CED" alt="Project: PerfDB" />
-  <img src="https://img.shields.io/badge/Built_by-PaxLabs-004CED?style=for-the-badge&amp;labelColor=000000" alt="Built by PaxLabs" />
+  <img src="https://img.shields.io/badge/Built_by-Sidiora_Labs-004CED?style=for-the-badge&amp;labelColor=000000" alt="Built by Sidiora Labs" />
   <a href="#license"><img src="https://img.shields.io/badge/License-MIT_OR_Apache--2.0-004CED?style=for-the-badge&amp;labelColor=000000" alt="License: MIT OR Apache-2.0" /></a>
   <img src="https://img.shields.io/badge/Status-Pre--release-FF6B35?style=for-the-badge&amp;labelColor=000000" alt="Status: Pre-release" />
 </p>
@@ -165,14 +165,14 @@ PerfDB is not yet published to crates.io. Use it as a path or git dependency:
 
 ```toml
 [dependencies]
-perfdb = { git = "https://github.com/paxlabs-inc/perfdb" }
+perfdb = { git = "https://github.com/Sidiora-Labs/perf-db" }
 ```
 
 ### From source
 
 ```bash
-git clone https://github.com/paxlabs-inc/perfdb.git
-cd perfdb
+git clone https://github.com/Sidiora-Labs/perf-db.git
+cd perf-db
 cargo build --release
 ```
 
@@ -316,8 +316,8 @@ Contributions are welcome. See [`CONTRIBUTING.md`](CONTRIBUTING.md) for
 setup instructions, code standards, and the PR process.
 
 ```bash
-git clone https://github.com/paxlabs-inc/perfdb.git
-cd perfdb
+git clone https://github.com/Sidiora-Labs/perf-db.git
+cd perf-db
 rustup component add clippy rustfmt
 cargo test
 cargo clippy --all-targets --all-features -- -D warnings
@@ -347,7 +347,6 @@ at your option.
 ## Related
 
 - [Paxeer Network](https://paxeer.app) — Sovereign L1 (Chain ID 125), 400ms blocks and finality, purpose-built for high-frequency and agentic workloads.
-- [PaxLabs](https://labs.paxeer.app) — Sovereign infrastructure for the machine economy.
 
 ---
 
@@ -356,7 +355,7 @@ at your option.
 </p>
 
 <p align="center">
-  Built by <a href="https://labs.paxeer.app"><strong>PaxLabs Inc.</strong></a>
+  Built by <strong>Sidiora Labs</strong>
 </p>
 
 <p align="center">

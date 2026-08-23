@@ -14,8 +14,8 @@ to the latest release on the `main` branch only.
 
 Please do not report security vulnerabilities through public GitHub issues.
 
-Instead, use [GitHub Security Advisories](https://github.com/paxlabs-inc/perfdb/security/advisories/new)
-to submit a private report, or email **security@paxlabs.io** with:
+Instead, use [GitHub Security Advisories](https://github.com/Sidiora-Labs/perf-db/security/advisories/new)
+to submit a private report, or email **security@sidiora.io** with:
 
 - A description of the vulnerability and its potential impact
 - Steps to reproduce, including any proof-of-concept code
