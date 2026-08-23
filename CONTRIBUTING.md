@@ -13,8 +13,8 @@ change merged.
 ## Getting started
 
 ```bash
-git clone https://github.com/paxlabs-inc/perfdb.git
-cd perfdb
+git clone https://github.com/Sidiora-Labs/perf-db.git
+cd perf-db
 cargo build
 cargo test
 ```
