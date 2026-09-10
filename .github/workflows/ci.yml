@@ -19,7 +19,7 @@ jobs:
     name: Format
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - uses: dtolnay/rust-toolchain@stable
         with:
           components: rustfmt
@@ -29,7 +29,7 @@ jobs:
     name: Clippy
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - uses: dtolnay/rust-toolchain@stable
         with:
           components: clippy
@@ -44,7 +44,7 @@ jobs:
         os: [ubuntu-latest, macos-latest]
     runs-on: ${{ matrix.os }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - uses: dtolnay/rust-toolchain@stable
       - uses: Swatinem/rust-cache@v2
       - run: cargo build --all-targets
@@ -54,7 +54,7 @@ jobs:
     name: MSRV check
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - uses: dtolnay/rust-toolchain@1.75.0
       - uses: Swatinem/rust-cache@v2
       - run: cargo check --all-targets
@@ -63,7 +63,7 @@ jobs:
     name: Coverage
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - uses: dtolnay/rust-toolchain@stable
         with:
           components: llvm-tools-preview
