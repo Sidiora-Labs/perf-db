@@ -8,7 +8,7 @@ repository = "https://github.com/Sidiora-Labs/perf-db"
 readme = "README.md"
 keywords = ["database", "embedded", "time-series", "trading", "mmap"]
 categories = ["database-implementations", "database"]
-rust-version = "1.75"
+rust-version = "1.85"
 
 [[bin]]
 name = "perfdb"

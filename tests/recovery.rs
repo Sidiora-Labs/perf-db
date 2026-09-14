@@ -453,11 +453,8 @@ fn corrupted_crc_stops_replay_at_corruption() {
         let mut modified = data.clone();
 
 
-
         let first_len = u32::from_le_bytes(data[0..4].try_into().unwrap()) as usize;
-        
-
-
+        let second_offset = 8 + first_len;
         if second_offset + 8 < modified.len() {
             modified[second_offset + 4] ^= 0xFF;
             modified[second_offset + 5] ^= 0xFF;
